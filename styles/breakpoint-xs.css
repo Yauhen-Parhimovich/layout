@@ -1,0 +1,555 @@
+@media (max-width: 360px) {
+
+
+    .header {
+        padding: 20px 0;
+    }
+
+    .header-subtitle {
+        font-size: 12px;
+    }
+
+    .progressbar {
+        height: 12px;
+    }
+
+    .progressbar__value-wrapper {
+        width: 14px;
+        height: 24px;
+    }
+
+    .progressbar__value {
+        width: 24px;
+        height: 24px;
+        font-size: 8px;
+        line-height: 24px;
+    }
+
+    .header__title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .header__title:before {
+        width: 40px;
+        height: 40px;
+    }
+
+    .header__text {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+
+    .header-image {
+        display: block;
+        max-width: 100%;
+    }
+
+    .header__card {
+        margin-top: 30px;
+        padding: 0 20px 40px;
+    }
+
+    .header__card-title {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .header__card-subtitle {
+        font-size: 20px;
+    }
+
+    .header__card-list__wrapper {
+        padding-top: 20px;
+        font-size: 16px;
+    }
+
+    .header__card-list {
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    .button {
+        padding: 18px 25px;
+        font-size: 18px;
+    }
+
+    a {
+        border: none;
+        text-decoration: underline;
+        text-align: center;
+    }
+
+    .section {
+        padding: 40px 0;
+    }
+
+    .section__title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .skills__text {
+        font-size: 16px;
+    }
+
+    .skills__text + .skills__text {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .slider__wrapper {
+        padding-bottom: 0;
+    }
+
+    .slider__buttons {
+        display: none;
+    }
+
+    .try__avatar {
+        display: none;
+    }
+
+    .try__title_mobile {
+        display: block;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 110%;
+        margin-bottom: 20px;
+    }
+
+    .try__title {
+        display: none;
+    }
+
+    .rating {
+        margin: 0 auto;
+        max-width: 100%;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 20px;
+    }
+
+    .rating__persons-item-1 {
+        left: 0;
+        z-index: 1;
+    }
+
+    .rating__persons-item-2 {
+        left: 8%;
+    }
+
+    .rating__persons-item-3 {
+        left: 16%;
+    }
+
+    .rating__persons-item-4 {
+        left: 24%;
+    }
+
+    .rating__persons-item_full {
+        left: 32%;
+    }
+
+    .rating__persons {
+        margin-top: 10px;
+        order: 1;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .rating__stars {
+        order: 2;
+
+    }
+
+    .rating__value {
+        order: 3;
+    }
+
+    .try__text {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    .try__subtitle {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    .try__button {
+        margin-top: 20px;
+    }
+
+    .try__link {
+        margin-top: 20px;
+    }
+
+    .works__cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card + .card {
+        margin-top: 20px;
+    }
+
+    .card__header {
+        min-height: 110px;
+    }
+
+    .card__title {
+        font-size: 20px;
+        margin-bottom: 10px;
+        padding: 20px 20px 0;
+    }
+
+    .card__description {
+        font-size: 16px;
+        padding: 0 20px 20px;
+    }
+
+    .card__footer {
+        padding: 20px;
+        min-height: auto;
+    }
+
+    .card__person {
+        margin-bottom: 10px;
+    }
+
+    .card__person-avatar {
+        width: 60px;
+        height: 60px;
+    }
+
+    .card__person-photo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .card__person-name {
+        font-size: 16px;
+    }
+
+    .card__person-job {
+        font-size: 12px;
+    }
+
+    .card__review {
+        font-size: 16px;
+    }
+
+    .stories__subtitle {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .stories__photos {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .story__photo {
+        min-width: 92px;
+        height: 150px;
+    }
+
+    .stories__image {
+        width: 92px;
+        height: 150px;
+    }
+
+    .about-wrapper {
+        display: block;
+    }
+
+    .about-left {
+        display: block;
+        text-align: center;
+    }
+
+    .about-slider__buttons {
+        display: none;
+    }
+
+    .about-slider {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .about-slide__avatar {
+        width: 60px;
+        height: 60px;
+    }
+
+    .about-slide__name {
+        font-size: 28px;
+        margin-left: 20px;
+    }
+
+    .about-slide__content {
+        font-size: 20px;
+    }
+
+    .about-slide {
+        padding: 20px;
+    }
+
+    .about-slider__dots {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .about-slider__dot {
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: #DEDEDE;
+    }
+
+    .about-slider__dot + .about-slider__dot {
+        margin-left: 5px;
+    }
+
+    .about-slider__dot_active {
+        background: #73C371;
+    }
+
+    .reviews__subtitle {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .review {
+        padding: 20px;
+    }
+
+    .review__quote {
+        top: 25px;
+        right: 25px;
+    }
+
+    .review__text {
+        font-size: 16px;
+    }
+
+    .reviews__wrapper {
+        gap: 20px;
+    }
+
+    .review__person-avatar {
+        width: 60px;
+        height: 60px;
+    }
+
+    .review__person-photo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .review__person-name {
+        font-size: 16px;
+    }
+
+    .review__person-job {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .start {
+        display: none;
+    }
+
+    .start_mobile {
+        display: block;
+        background-image: url("../assets/images/start/start-bg.jpg");
+        background-size: 180%;
+        background-repeat: no-repeat;
+        background-position: -155px 0;
+        padding-top: 40px;
+    }
+
+    .start_mobile__header {
+        width: 215px;
+        margin-left: auto;
+        color: var(--text-color-light);
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 110%;
+
+    }
+
+    .start_mobile__text {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .start__cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .start__card {
+        width: 100%;
+        border: 1px solid #E5E5E5;
+        border-radius: 12px;
+        padding: 20px;
+        font-size: 16px;
+    }
+
+    .start__card-image {
+        width: 28px;
+        height: 28px;
+    }
+
+    .start__card-icon {
+        width: 28px;
+        height: 28px;
+    }
+
+    .start__card + .start__card {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .faq-wrapper {
+        display: block;
+    }
+
+    .faq__title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .accordion__item {
+        font-size: 16px;
+    }
+
+    .free__content {
+        text-align: center;
+        padding-bottom: 0;
+    }
+
+    .free__title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .free__subtitle {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .free__warning {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .free__image {
+        display: block;
+        height: 305px;
+        background-image: url(../assets/images/try/phone.png);
+        background-position: 50% 100%;
+        background-repeat: no-repeat;
+        background-size: 200%;
+    }
+
+    .free-body {
+        top: auto;
+        padding: 10px 20px;
+        font-size: 16px;
+        bottom: -18%;
+        left: 21%;
+    }
+
+    .free-mind {
+        top: auto;
+        padding: 10px 20px;
+        font-size: 16px;
+        bottom: -21%;
+        right: 1%;
+    }
+
+    .free-soul {
+        padding: 10px 20px;
+        font-size: 16px;
+        bottom: -52%;
+        left: 24%;
+    }
+
+    .free-relationship {
+        padding: 10px 20px;
+        font-size: 16px;
+        right: auto;
+        bottom: -77%;
+        left: 37%;
+    }
+
+    .footer {
+        display: none;
+    }
+
+    .footer_mobile {
+        display: block;
+    }
+
+    .footer__logo {
+        width: 138px;
+        height: auto;
+    }
+
+    .footer__logo-image {
+        width: 138px;
+        height: auto;
+    }
+
+    .footer__support-buttons {
+        margin-bottom: 40px;
+    }
+
+    .footer__support-button {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    .footer__collections, .footer__sacrill {
+        font-size: 16px;
+    }
+
+    .footer__sacrill {
+        margin: 40px 0;
+    }
+
+    .footer__support-title {
+        margin-top: 40px;
+        font-size: 16px;
+        color: #808080;
+        text-align: left;
+    }
+
+    .footer__support-email {
+        font-size: 42px;
+    }
+
+    .footer__license {
+        font-size: 16px;
+        color: #808080;
+        margin-top: 10px;
+    }
+
+    .footer__links {
+        margin-top: 20px;
+        font-size: 16px;
+        white-space: nowrap;
+        color: #808080;
+        margin-bottom: 40px;
+    }
+
+    .footer__visa {
+        margin-bottom: 20px;
+    }
+}

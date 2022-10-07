@@ -1,0 +1,21 @@
+:root {
+
+    --text-color-main: #333333;
+    --text-color-red: #FF3A44;
+    --text-color-light: #FFFFFF;
+    --text-color-light-grey: #808080;
+    --button-color-bg: #73C371;
+
+    --breakpoint-lg: 992px;
+    --breakpoint-md: 768px;
+    --breakpoint-s: 576px;
+    --breakpoint-xs: 360px;
+
+    --bg-main: #FFFFFF;
+    --bg-header: #F5F5F5;
+    --bg-about: #F0F6F4;
+
+    --max-width: 1700px;
+    --content-width: 1180px;
+
+}
