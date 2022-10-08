@@ -1,3 +1,377 @@
 @media (max-width: 768px) {
 
+    .header {
+        padding: 40px 0;
+    }
+
+    .header-subtitle {
+        font-size: 20px;
+    }
+
+    .progressbar {
+        height: 18px;
+    }
+
+    .progressbar__value-wrapper {
+        width: 35px;
+        height: 35px;
+    }
+
+    .progressbar__value {
+        width: 35px;
+        height: 35px;
+        font-size: 10px;
+        line-height: 35px;
+    }
+
+    .header__title {
+        font-size: 42px;
+    }
+
+    .header__title:before {
+        width: 60px;
+        height: 60px;
+    }
+
+    .header__card {
+        margin-top: 30px;
+        padding: 0 60px 60px;
+    }
+
+    .header__card-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .header__card-subtitle {
+        font-size: 24px;
+    }
+
+    .header__card-list__wrapper {
+        padding-top: 20px;
+        font-size: 18px;
+    }
+
+    .header__card-list {
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    .button {
+        padding: 24px 42px;
+        font-size: 18px;
+    }
+
+    .section {
+        padding: 50px 0;
+    }
+
+    .section__title {
+        font-size: 36px;
+    }
+
+    .skills__text {
+        font-size: 18px;
+    }
+
+    .skills__text + .skills__text {
+        margin-top: 25px;
+        margin-bottom: 45px;
+    }
+
+    .try__text {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    .try__subtitle {
+        margin-top: 35px;
+        font-size: 20px;
+    }
+
+    .try__button {
+        margin-top: 35px;
+    }
+
+    .try__link {
+        margin-top: 20px;
+    }
+
+
+    .works__cards {
+        justify-content: center;
+    }
+
+
+    .card + .card {
+        margin-top: 20px;
+    }
+
+    .card__header {
+        min-height: 250px;
+    }
+
+    .card__title {
+        font-size: 24px;
+        padding: 20px 20px 0;
+    }
+
+    .card__description {
+        font-size: 16px;
+        padding: 0 20px 20px;
+    }
+
+    .card__footer {
+        padding: 20px;
+        min-height: auto;
+
+    }
+
+    .card__person {
+        margin-bottom: 10px;
+    }
+
+    .card__person-avatar {
+        width: 70px;
+        height: 70px;
+    }
+
+    .card__person-photo {
+        width: 70px;
+        height: 70px;
+    }
+
+    .card__person-name {
+        font-size: 18px;
+    }
+
+    .card__person-job {
+        font-size: 14px;
+    }
+
+    .card__review {
+        font-size: 18px;
+    }
+
+    .stories__subtitle {
+        font-size: 18px;
+    }
+
+    .story__photo {
+        min-width: 125px;
+        height: 195px;
+    }
+
+    .stories__image {
+        width: 125px;
+        height: 195px;
+    }
+
+    .about-slide__avatar {
+        width: 70px;
+        height: 70px;
+    }
+
+    .about-slide__name {
+        margin-left: 20px;
+    }
+
+    .about-slide {
+        padding: 40px;
+    }
+
+    .reviews__subtitle {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    .review {
+        padding: 30px;
+    }
+
+    .review__quote {
+        top: 35px;
+        right: 35px;
+    }
+
+    .review__text {
+        font-size: 18px;
+    }
+
+    .reviews__wrapper {
+        gap: 30px;
+    }
+
+    .review__person-avatar {
+        width: 70px;
+        height: 70px;
+    }
+
+    .review__person-photo {
+        width: 70px;
+        height: 70px;
+    }
+
+    .review__person-name {
+        font-size: 18px;
+    }
+
+    .review__person-job {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .start {
+        display: none;
+    }
+
+    .start_mobile {
+        display: block;
+        background-image: url("../assets/images/start/start-bg.jpg");
+        background-size: 180%;
+        background-repeat: no-repeat;
+        background-position: -155px 0;
+        padding-top: 40px;
+    }
+
+    .start_mobile__header {
+        width: 215px;
+        margin-left: auto;
+        color: var(--text-color-light);
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 110%;
+        margin-right: 100px;
+    }
+
+    .start_mobile__title {
+        font-size: 30px;
+        line-height: 140%;
+    }
+
+    .start_mobile__text {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .start__cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .start__card {
+        max-width: 50%;
+        border: 1px solid #E5E5E5;
+        border-radius: 12px;
+        padding: 20px;
+        font-size: 16px;
+    }
+
+    .start__card-image {
+        width: 35px;
+        height: 35px;
+    }
+
+    .start__card-icon {
+        width: 35px;
+        height: 35px;
+    }
+
+    .start__card + .start__card {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .faq__title {
+        font-size: 35px;
+    }
+
+    .accordion__item {
+        font-size: 18px;
+    }
+
+
+    .free__content {
+        text-align: center;
+        padding-bottom: 0;
+        margin: 0 auto;
+    }
+
+    .free__title {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    .free__subtitle {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+
+    .free {
+        background: none;
+    }
+
+    .free__image {
+        display: block;
+        height: 352px;
+        background-image: url(../assets/images/try/phone.png);
+        background-position: 50% 100%;
+        background-repeat: no-repeat;
+        background-size: 105%;
+    }
+
+    .free-body {
+        top: auto;
+        padding: 10px 20px;
+        font-size: 16px;
+        bottom: -18%;
+        left: 28%;
+    }
+
+    .free-mind {
+        top: auto;
+        padding: 10px 20px;
+        font-size: 16px;
+        bottom: -21%;
+        right: 17%;
+    }
+
+    .free-soul {
+        padding: 10px 20px;
+        font-size: 16px;
+        bottom: -41%;
+        left: 31%;
+    }
+
+    .free-relationship {
+        padding: 10px 20px;
+        font-size: 16px;
+        right: auto;
+        bottom: -60%;
+        left: 46%;
+    }
+
+    .footer__content {
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-left: 30px;
+    }
+
+    .footer__support-title {
+        text-align: left;
+        margin-top: 30px;
+    }
+
+    .footer__support-buttons {
+        text-align: left;
+    }
+
+    .footer__sacrill {
+        margin-top: 10px;
+    }
+
+    .footer__support-email {
+        font-size: 48px;
+    }
 }

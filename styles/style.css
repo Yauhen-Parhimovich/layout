@@ -1,7 +1,7 @@
 
 body {
     background-color: var(--bg-main);
-    font-family: 'SF Pro Display';
+    font-family: 'SF Pro Display', sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 150%;
@@ -35,8 +35,6 @@ body {
 .button:hover {
     opacity: 0.8;
 }
-
-/*      header      */
 
 .header {
     padding: 60px 0;
@@ -155,12 +153,6 @@ body {
     padding-bottom: 30px;
 }
 
-.header__card-list__item {
-}
-
-.header__card-list__text {
-}
-
 .header__card-list__important {
     font-weight: 700;
 }
@@ -176,9 +168,6 @@ body {
 .header-image {
     display: none;
     border-radius: 12px 12px 0 0;
-}
-
-.main {
 }
 
 .section {
@@ -214,9 +203,6 @@ body {
     justify-content: space-between;
 }
 
-.skills__item {
-}
-
 .skill {
     width: 180px;
 }
@@ -234,12 +220,6 @@ body {
     margin-bottom: 12px;
 }
 
-.skill__title {
-}
-
-.slider {
-}
-
 .slider__title {
     margin-bottom: 60px;
 }
@@ -247,14 +227,11 @@ body {
 .slider__wrapper {
     overflow-x: hidden;
     position: relative;
-    padding-bottom: 110px;
+    padding-bottom: 133px;
 }
 
 .slider__track {
     display: flex;
-}
-
-.slider__item {
 }
 
 .slide {
@@ -284,7 +261,7 @@ body {
 
 .slider__buttons {
     position: absolute;
-    bottom: -23px;
+    bottom: 0;
     left: 0;
 }
 
@@ -314,9 +291,6 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.slider__button_right {
-}
-
 .try {
     position: relative;
     text-align: center;
@@ -326,8 +300,13 @@ body {
 }
 
 .try__avatar {
+    border-radius: 50%;
     position: absolute;
+    z-index: -1;
+}
 
+.try__avatar img {
+    border-radius: 50%;
 }
 
 .try__avatar-1 {
@@ -357,11 +336,8 @@ body {
     right: 142px;
 }
 
-.try__rating {
-}
-
 .rating {
-    width: 476px;
+    max-width: 476px;
     min-height: 56px;
     margin: 22px auto 0;
     display: flex;
@@ -463,9 +439,6 @@ body {
     font-size: 16px;
 }
 
-.works {
-}
-
 .works__title {
     text-align: center;
     margin-bottom: 60px;
@@ -474,10 +447,6 @@ body {
 .works__cards {
     display: flex;
     justify-content: space-between;
-}
-
-.works__cards-item {
-
 }
 
 .card {
@@ -513,9 +482,6 @@ body {
     border: 1px solid #E5E5E5;
     border-radius: 12px;
     min-height: 390px;
-}
-
-.card__image {
 }
 
 .card__title {
@@ -584,9 +550,6 @@ body {
     margin-bottom: 10px;
 }
 
-.card__rating {
-}
-
 .stories {
     padding-top: 55px;
     text-align: center;
@@ -604,6 +567,8 @@ body {
 
 .stories__photos {
     display: flex;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .story__photo {
@@ -631,9 +596,6 @@ body {
     margin-left: 10px;
 }
 
-.about {
-}
-
 .about-wrapper {
     display: flex;
 }
@@ -645,12 +607,6 @@ body {
     justify-content: space-between;
 }
 
-.about__title {
-}
-
-.about-slider__buttons {
-}
-
 .about-slider {
     width: 760px;
     overflow-x: hidden;
@@ -659,9 +615,6 @@ body {
 
 .about-slider__track {
     display: flex;
-}
-
-.about-slider__item {
 }
 
 .about-slide {
@@ -748,9 +701,6 @@ body {
 .review__info {
     font-size: 16px;
     margin-bottom: 15px;
-}
-
-.review__info-nickname {
 }
 
 .review__info-date {
@@ -854,12 +804,6 @@ body {
     margin-left: 20px;
 }
 
-.start__card-image {
-}
-
-.start__card-icon {
-}
-
 .start__card-text {
     margin-top: 12px;
 }
@@ -905,15 +849,12 @@ body {
     justify-content: space-between;
 }
 
-.accordion__item-title {
-}
-
 .accordion__item-button {
     border: none;
     background: none;
     transition: 0.2s;
     transform: rotate(180deg);
-    padding: 0 9px 3px 0;
+    padding: 0 9px 3px 9px;
 }
 
 .accordion__item-button_active {
@@ -1054,9 +995,6 @@ body {
     margin-bottom: 21px;
 }
 
-.footer__logo-image {
-}
-
 .footer__about-description {
     margin-bottom: 30px;
     font-size: 16px;
@@ -1068,12 +1006,6 @@ body {
     padding-left: 10px;
 }
 
-.footer__visa-image {
-}
-
-.footer__collections {
-}
-
 .footer__list-title {
     font-weight: 700;
 }
@@ -1083,18 +1015,12 @@ body {
     margin-top: 10px;
 }
 
-.footer__item {
-}
-
 .footer__item + .footer__item {
     margin-top: 5px;
 }
 
 .footer__sacrill {
     padding-right: 10px;
-}
-
-.footer__support {
 }
 
 .footer__support-title {
@@ -1155,9 +1081,6 @@ body {
     padding-left: 7px;
 }
 
-.footer__license {
-}
-
 .footer__links {
     list-style: none;
     display: flex;
@@ -1179,9 +1102,6 @@ body {
     top: 50%;
     left: -5%;
     transform: translate(-50%, -50%);
-}
-
-.footer__link {
 }
 
 .footer_mobile {

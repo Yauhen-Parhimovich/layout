@@ -1,6 +1,5 @@
 @media (max-width: 360px) {
 
-
     .header {
         padding: 20px 0;
     }
@@ -14,7 +13,7 @@
     }
 
     .progressbar__value-wrapper {
-        width: 14px;
+        width: 24px;
         height: 24px;
     }
 
@@ -27,7 +26,6 @@
 
     .header__title {
         font-size: 24px;
-        margin-bottom: 20px;
     }
 
     .header__title:before {
@@ -37,7 +35,6 @@
 
     .header__text {
         font-size: 16px;
-        margin-bottom: 40px;
     }
 
     .header-image {
@@ -46,7 +43,6 @@
     }
 
     .header__card {
-        margin-top: 30px;
         padding: 0 20px 40px;
     }
 
@@ -60,18 +56,11 @@
     }
 
     .header__card-list__wrapper {
-        padding-top: 20px;
         font-size: 16px;
-    }
-
-    .header__card-list {
-        padding-left: 20px;
-        padding-bottom: 20px;
     }
 
     .button {
         padding: 18px 25px;
-        font-size: 18px;
     }
 
     a {
@@ -96,18 +85,6 @@
     .skills__text + .skills__text {
         margin-top: 20px;
         margin-bottom: 30px;
-    }
-
-    .slider__wrapper {
-        padding-bottom: 0;
-    }
-
-    .slider__buttons {
-        display: none;
-    }
-
-    .try__avatar {
-        display: none;
     }
 
     .try__title_mobile {
@@ -167,11 +144,6 @@
         order: 3;
     }
 
-    .try__text {
-        margin-top: 20px;
-        font-size: 16px;
-    }
-
     .try__subtitle {
         margin-top: 20px;
         font-size: 16px;
@@ -181,41 +153,8 @@
         margin-top: 20px;
     }
 
-    .try__link {
-        margin-top: 20px;
-    }
-
-    .works__cards {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .card + .card {
-        margin-top: 20px;
-    }
-
     .card__header {
         min-height: 110px;
-    }
-
-    .card__title {
-        font-size: 20px;
-        margin-bottom: 10px;
-        padding: 20px 20px 0;
-    }
-
-    .card__description {
-        font-size: 16px;
-        padding: 0 20px 20px;
-    }
-
-    .card__footer {
-        padding: 20px;
-        min-height: auto;
-    }
-
-    .card__person {
-        margin-bottom: 10px;
     }
 
     .card__person-avatar {
@@ -245,11 +184,6 @@
         margin-bottom: 30px;
     }
 
-    .stories__photos {
-        max-width: 100%;
-        overflow-x: hidden;
-    }
-
     .story__photo {
         min-width: 92px;
         height: 150px;
@@ -260,32 +194,9 @@
         height: 150px;
     }
 
-    .about-wrapper {
-        display: block;
-    }
-
-    .about-left {
-        display: block;
-        text-align: center;
-    }
-
-    .about-slider__buttons {
-        display: none;
-    }
-
-    .about-slider {
-        max-width: 100%;
-        margin: 0;
-    }
-
     .about-slide__avatar {
         width: 60px;
         height: 60px;
-    }
-
-    .about-slide__name {
-        font-size: 28px;
-        margin-left: 20px;
     }
 
     .about-slide__content {
@@ -294,28 +205,6 @@
 
     .about-slide {
         padding: 20px;
-    }
-
-    .about-slider__dots {
-        display: flex;
-        justify-content: center;
-        margin-top: 20px;
-    }
-
-    .about-slider__dot {
-        display: inline-block;
-        width: 12px;
-        height: 12px;
-        border-radius: 50%;
-        background: #DEDEDE;
-    }
-
-    .about-slider__dot + .about-slider__dot {
-        margin-left: 5px;
-    }
-
-    .about-slider__dot_active {
-        background: #73C371;
     }
 
     .reviews__subtitle {
@@ -359,35 +248,6 @@
         margin-top: 5px;
     }
 
-    .start {
-        display: none;
-    }
-
-    .start_mobile {
-        display: block;
-        background-image: url("../assets/images/start/start-bg.jpg");
-        background-size: 180%;
-        background-repeat: no-repeat;
-        background-position: -155px 0;
-        padding-top: 40px;
-    }
-
-    .start_mobile__header {
-        width: 215px;
-        margin-left: auto;
-        color: var(--text-color-light);
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 110%;
-
-    }
-
-    .start_mobile__text {
-        margin-top: 20px;
-        text-align: center;
-        font-size: 16px;
-    }
-
     .start__cards {
         flex-direction: column;
         align-items: center;
@@ -414,10 +274,6 @@
     .start__card + .start__card {
         margin-left: 0;
         margin-top: 10px;
-    }
-
-    .faq-wrapper {
-        display: block;
     }
 
     .faq__title {

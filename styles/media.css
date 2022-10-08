@@ -1,0 +1,23 @@
+@media (max-width: 1126px) {
+    .works__cards {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .card {
+        margin: 5px;
+    }
+
+        .faq-wrapper {
+            display: block;
+        }
+
+        .faq-accordion {
+            margin: 0 auto;
+        }
+
+        .faq__title {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+}

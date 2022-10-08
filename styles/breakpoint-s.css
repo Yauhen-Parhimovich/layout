@@ -1,3 +1,173 @@
 @media (max-width: 576px) {
 
+    .header {
+        padding: 30px 0;
+    }
+
+    .header-subtitle {
+        font-size: 15px;
+    }
+
+    .progressbar {
+        height: 16px;
+    }
+
+    .progressbar__value-wrapper {
+        width: 30px;
+        height: 30px;
+    }
+
+    .progressbar__value {
+        width: 30px;
+        height: 30px;
+        font-size: 9px;
+        line-height: 30px;
+    }
+
+    .header__title {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .header__title:before {
+        width: 50px;
+        height: 50px;
+    }
+
+    .header__card {
+        padding: 0 30px 50px;
+    }
+
+    .button {
+        padding: 22px 34px;
+    }
+
+    .section {
+        padding: 45px 0;
+    }
+
+    .section__title {
+        font-size: 30px;
+    }
+
+    .slider__wrapper {
+        padding-bottom: 0;
+    }
+
+    .slider__buttons {
+        display: none;
+    }
+
+    .try__subtitle {
+        margin-top: 30px;
+        font-size: 18px;
+    }
+
+    .try__button {
+        margin-top: 28px;
+    }
+
+    .card__header {
+        min-height: 200px;
+    }
+
+    .card__title {
+        font-size: 20px;
+    }
+
+    .card__person-avatar {
+        width: 65px;
+        height: 65px;
+    }
+
+    .card__person-photo {
+        width: 65px;
+        height: 65px;
+    }
+
+    .story__photo {
+        min-width: 110px;
+        height: 171px;
+    }
+
+    .stories__image {
+        width: 110px;
+        height: 171px;
+    }
+
+    .about-slide__avatar {
+        width: 65px;
+        height: 65px;
+    }
+
+    .about-slide {
+        padding: 30px;
+    }
+
+    .reviews__subtitle {
+        margin-bottom: 30px;
+    }
+
+    .review {
+        padding: 25px;
+    }
+
+    .review__quote {
+        top: 30px;
+        right: 30px;
+    }
+
+    .reviews__wrapper {
+        gap: 25px;
+    }
+
+    .review__person-avatar {
+        width: 65px;
+        height: 65px;
+    }
+
+    .review__person-photo {
+        width: 65px;
+        height: 65px;
+    }
+
+    .start_mobile__title {
+        font-size: 25px;
+    }
+
+    .faq__title {
+        font-size: 30px;
+    }
+
+    .free__image {
+        height: 350px;
+        background-size: 165%;
+    }
+
+
+    .free__title {
+        font-size: 30px;
+    }
+
+
+    .free-body {
+        left: 25%;
+    }
+
+    .free-mind {
+        right: 8%;
+    }
+
+    .free-soul {
+        left: 21%;
+    }
+
+    .free-relationship {
+        bottom: -66%;
+        left: 38%;
+    }
+
+    .footer__support-email {
+        font-size: 44px;
+    }
 }
